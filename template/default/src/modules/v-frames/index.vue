@@ -42,7 +42,6 @@ export default {
         player.goto(0)
       })
 
-      player.goto(0)
       this.player = player
     },
     play () {

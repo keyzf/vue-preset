@@ -24,6 +24,14 @@
         _czc.push(["_trackEvent", project, action, event]);
       }
       trackEvent('all', 'loaded');
+      
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?833be5ac9686bb7b57b1c34a6dbb91d6";
+        var s = document.getElementsByTagName("script")[0];
+        hm.async = true;
+        s.parentNode.insertBefore(hm, s);
+      })();
     </script>
   </head>
   <body>
@@ -39,7 +47,6 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
 
-    <script src="https://hm.baidu.com/hm.js?833be5ac9686bb7b57b1c34a6dbb91d6" async></script>
     <script>
       if (!location.host.match(/\.com$/)) {
         document.write('<script src="//d.fenfenriji.com/web/static/ssyp/vconsole.3.3.0.min.js"><\/script>')
