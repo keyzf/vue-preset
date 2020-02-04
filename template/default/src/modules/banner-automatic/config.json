@@ -1,0 +1,12 @@
+{
+  "name": "自动滚动banner",
+  "initData": {
+    "indicatorColor": "black",
+    "items": [
+      {
+        "action": "http://www.baidu.com/",
+        "cover": "https://img.yzcdn.cn/vant/apple-1.jpg"
+      }
+    ]
+  }
+}

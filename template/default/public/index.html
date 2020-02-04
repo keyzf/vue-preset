@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title><%= projectName %></title>
+    <script>
+      // 需要修改项目名称（英文）
+      var project = '<%= projectName %>'
+      //声明cnzz
+      var _czc = _czc || [];
+      _czc.push(["_setAccount", "4370098"]);
+
+      // 百度统计
+      var _hmt = _hmt || [];
+      _hmt.push(['_setAccount', '833be5ac9686bb7b57b1c34a6dbb91d6']);
+      _hmt.push(['_setAutoPageview', false]);
+      _hmt.push(['_trackPageview', '/v/' + project]);
+
+      function trackEvent(action, event) {
+        _hmt.push(['_trackEvent', project, action, event]);
+        _czc.push(["_trackEvent", project, action, event]);
+      }
+      trackEvent('all', 'loaded');
+    </script>
+  </head>
+  <body>
+    <!-- S loading 动画 -->
+    <div id="o2_loading" class="loading">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>
+    <!-- E loading -->
+
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+    <script src="https://hm.baidu.com/hm.js?833be5ac9686bb7b57b1c34a6dbb91d6" async></script>
+    <script>
+      if (!location.host.match(/\.com$/)) {
+        document.write('<script src="//d.fenfenriji.com/web/static/ssyp/vconsole.3.3.0.min.js"><\/script>')
+        document.write('<script>new VConsole()<\/script>')
+      }
+    </script>
+  </body>
+</html>

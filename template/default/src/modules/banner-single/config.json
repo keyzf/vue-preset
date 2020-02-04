@@ -1,0 +1,7 @@
+{
+  "name": "单图banner",
+  "initData": {
+    "src": "https://img.yzcdn.cn/vant/apple-1.jpg",
+    "action": ""
+  }
+}

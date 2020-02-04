@@ -1,0 +1,31 @@
+{
+	"bs0": {
+		"src": "https://img.yzcdn.cn/vant/apple-1.jpg",
+		"action": ""
+	},
+	"bs1": {
+		"src": "https://img.yzcdn.cn/vant/apple-1.jpg",
+		"action": ""
+	},
+	"tb0": {
+		"title": "我是修改后的标题222"
+	},
+	"ba1": {
+		"indicatorColor": "black",
+		"items": [
+			{
+				"action": "http://www.baidu.com/",
+				"cover": "https://img.yzcdn.cn/vant/apple-1.jpg"
+			},
+			{
+				"action": "http://www.baidu.com/",
+				"cover": "https://img.yzcdn.cn/vant/apple-2.jpg"
+			},
+			{
+				"action": "http://www.baidu.com/",
+				"cover": "https://img.yzcdn.cn/vant/apple-3.jpg"
+			}
+		]
+	},
+	"vf0": {}
+}
