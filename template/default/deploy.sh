@@ -44,6 +44,6 @@ curl https://oapi.dingtalk.com/robot/send?access_token=9682e344afcbc04d3e504f59e
 			\"text\":\"[DEV] deploy $lastOnelineCommit\",
 			\"title\": \"$folder完成部署\",
 			\"picUrl\": \"\",
-			\"messageUrl\": \"http://git.ffrj.net/H5/$folder/builds\"
+			\"messageUrl\": \"http://git.ffrj.net/cloud-stage/$folder/builds\"
 		}
 }"
